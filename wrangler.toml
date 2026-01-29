@@ -1,0 +1,15 @@
+name = "smart-banner-generator"
+compatibility_date = "2024-01-01"
+pages_build_output_dir = "dist"
+
+[vars]
+# Add environment variables here for local development
+# GEMINI_API_KEY = "" # Set this in Cloudflare Dashboard for production
+
+# KV Namespace binding for project storage
+# To create the KV namespace, run:
+#   npx wrangler kv:namespace create PROJECTS_KV
+# Then update the id below with the returned ID
+[[kv_namespaces]]
+binding = "PROJECTS_KV"
+id = "d9518b9f7854426ca7f603ab553cb3a6"
