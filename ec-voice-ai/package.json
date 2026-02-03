@@ -1,0 +1,35 @@
+{
+  "name": "ec-voice-ai",
+  "version": "1.0.0",
+  "description": "EC電話対応AIシステム - 先回り対応で顧客満足度向上",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@fastify/formbody": "^7.4.0",
+    "@fastify/websocket": "^10.0.1",
+    "@supabase/supabase-js": "^2.93.3",
+    "axios": "^1.7.7",
+    "dotenv": "^16.4.5",
+    "fastify": "^4.28.1",
+    "resend": "^6.9.1",
+    "twilio": "^5.12.0",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.17.6",
+    "@types/ws": "^8.5.13",
+    "nodemon": "^3.1.7",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.21.0",
+    "typescript": "^5.6.3"
+  }
+}

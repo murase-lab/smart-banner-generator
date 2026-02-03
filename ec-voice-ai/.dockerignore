@@ -1,0 +1,47 @@
+# Dependencies
+node_modules
+
+# Build output (rebuilt in container)
+dist
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Development files
+*.log
+npm-debug.log*
+.npm
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Git
+.git
+.gitignore
+
+# Documentation
+*.md
+!README.md
+
+# Tests
+__tests__
+*.test.ts
+*.spec.ts
+coverage
+.nyc_output
+
+# Deployment configs (not needed in container)
+railway.json
+fly.toml
+render.yaml
+Dockerfile
+.dockerignore
