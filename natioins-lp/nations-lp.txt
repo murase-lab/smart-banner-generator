@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html class="light" lang="ja"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>AIで爆速！顧客を惹きつけるページ作成術！ | AI Seminar</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
+<script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        primary: "#003399", // Navy Blue from the image
+                        accent: "#D6334D", // Vibrant Red from the image
+                        "background-light": "#F8FAFC",
+                        "background-dark": "#0F172A",
+                    },
+                    fontFamily: {
+                        display: ["Noto Sans JP", "sans-serif"],
+                    },
+                    borderRadius: {
+                        DEFAULT: "8px",
+                    },
+                },
+            },
+        };
+    </script>
+<style>
+        body {
+            font-family: 'Noto Sans JP', sans-serif;
+        }
+        .header-bg {
+            background: linear-gradient(135deg, #003399 0%, #001a4d 100%);
+        }
+        .hero-pattern {
+            background-image: radial-gradient(#e5e7eb 1px, transparent 1px);
+            background-size: 20px 20px;
+        }
+        .dark .hero-pattern {
+            background-image: radial-gradient(#1e293b 1px, transparent 1px);
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-slate-900 dark:text-slate-100 antialiased">
+<header class="fixed top-0 w-full z-50 bg-white/80 dark:bg-background-dark/80 backdrop-blur-md border-b border-slate-200 dark:border-slate-800">
+<div class="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="bg-accent text-white px-3 py-1 text-sm font-bold rounded">NATIONS 同窓会</span>
+<span class="hidden md:inline-block font-bold text-primary dark:text-blue-400">エリア勉強会 福岡開催</span>
+</div>
+<a class="bg-primary hover:bg-blue-800 text-white px-6 py-2 rounded-full font-bold transition-all text-sm" href="#register">
+                今すぐ申し込む
+            </a>
+</div>
+</header>
+<main class="pt-16">
+<section class="relative py-16 md:py-24 hero-pattern">
+<div class="max-w-6xl mx-auto px-4 grid md:grid-cols-2 gap-12 items-center">
+<div class="space-y-6">
+<div class="inline-block px-4 py-1.5 bg-accent/10 dark:bg-accent/20 border border-accent rounded-full text-accent font-bold text-sm">
+                        AIで業務効率を最大化
+                    </div>
+<h1 class="text-4xl md:text-6xl font-black leading-tight tracking-tight">
+<span class="text-accent">AIで爆速！</span><br/>
+                        顧客を惹きつける<br/>ページ作成術！
+                    </h1>
+<p class="text-lg md:text-xl text-slate-600 dark:text-slate-400 font-medium">
+                        〜AIで作業を効率化！時間と労力を大幅に節約する売上アップ戦略〜
+                    </p>
+<div class="flex flex-col gap-4 pt-4">
+<div class="flex items-center gap-4 bg-white dark:bg-slate-800 p-4 rounded-xl shadow-sm border border-slate-100 dark:border-slate-700">
+<div class="bg-accent text-white p-3 rounded-lg">
+<span class="material-icons block text-2xl">calendar_today</span>
+</div>
+<div>
+<div class="text-accent font-bold text-2xl">2026.5.22 (金)</div>
+<div class="text-slate-500 dark:text-slate-400 font-medium">13:00 - 17:15</div>
+</div>
+</div>
+<div class="flex items-center gap-4 bg-white dark:bg-slate-800 p-4 rounded-xl shadow-sm border border-slate-100 dark:border-slate-700">
+<div class="bg-primary text-white p-3 rounded-lg">
+<span class="material-icons block text-2xl">groups</span>
+</div>
+<div>
+<div class="font-bold text-xl">懇親会</div>
+<div class="text-slate-500 dark:text-slate-400">17:30 - 19:30</div>
+</div>
+</div>
+</div>
+</div>
+<div class="relative flex justify-center">
+<div class="relative w-72 h-72 md:w-96 md:h-96">
+<div class="absolute inset-0 bg-blue-100 dark:bg-blue-900/30 rounded-full animate-pulse"></div>
+<img alt="Speaker Naoto Murase" class="absolute inset-4 w-[calc(100%-32px)] h-[calc(100%-32px)] object-cover rounded-full border-8 border-white dark:border-slate-800 shadow-2xl" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAR5MIKd5MiG4v_IExtqrnHzyGNzKmvqOqNjIbY6EA8m8ag4jB9UUt2M0bsa2ve5HbV0PFEWDwKuhUX3YPoUJNTqPKrgEs0ExIDfhIBAiwcTznd0EK2O9S3dAzxB31J82aukfyXn6LiFGW2v7Af5ioz0nDCs3sVazURlUSgrLMpCghHWFxcfzrG6vvewAqKdapJEuRVbrTOq-HfUzfMXwdIe0-kXzHGuQtstdfHRtcmWFeauYCduYj7UZ4VeiH9xamLJQlDsf6turUE"/>
+<div class="absolute bottom-4 left-0 right-0 bg-primary text-white px-6 py-4 rounded-2xl shadow-xl transform translate-y-4">
+<p class="text-xs opacity-80 mb-1">ご登壇店舗様</p>
+<p class="text-sm font-bold mb-1">MURA</p>
+<h3 class="text-xl font-bold">村瀬 直人 様 <span class="text-sm font-normal">（むっちーさん）</span></h3>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="bg-primary py-8 text-white">
+<div class="max-w-6xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center gap-6">
+<div class="flex items-center gap-4">
+<span class="bg-white text-primary px-3 py-1 rounded font-bold">会場</span>
+<p class="text-2xl font-bold tracking-wide">TKPガーデンシティ博多</p>
+</div>
+<div class="flex items-center gap-4 bg-white/10 px-6 py-3 rounded-xl border border-white/20">
+<span class="font-bold">申込〆切</span>
+<span class="text-2xl font-black text-white">5.18 (月)</span>
+</div>
+</div>
+</section>
+<section class="py-20 bg-white dark:bg-slate-900">
+<div class="max-w-4xl mx-auto px-4 text-center">
+<h2 class="text-3xl font-bold mb-12">セミナーで学べること</h2>
+<div class="grid sm:grid-cols-2 gap-8 text-left">
+<div class="p-8 rounded-2xl border border-slate-100 dark:border-slate-800 hover:shadow-lg transition-shadow">
+<span class="material-icons text-primary text-4xl mb-4">bolt</span>
+<h4 class="text-xl font-bold mb-3">AIによる爆速制作</h4>
+<p class="text-slate-600 dark:text-slate-400">最新のAIツールを駆使し、通常数日かかるページ制作を数時間に短縮する具体的なワークフローを公開します。</p>
+</div>
+<div class="p-8 rounded-2xl border border-slate-100 dark:border-slate-800 hover:shadow-lg transition-shadow">
+<span class="material-icons text-primary text-4xl mb-4">trending_up</span>
+<h4 class="text-xl font-bold mb-3">売上アップの戦略</h4>
+<p class="text-slate-600 dark:text-slate-400">ただ作るだけではない。顧客の心を動かし、コンバージョンを最大化させる心理学に基づいた構成術を学びます。</p>
+</div>
+<div class="p-8 rounded-2xl border border-slate-100 dark:border-slate-800 hover:shadow-lg transition-shadow">
+<span class="material-icons text-primary text-4xl mb-4">schedule</span>
+<h4 class="text-xl font-bold mb-3">時間と労力の節約</h4>
+<p class="text-slate-600 dark:text-slate-400">クリエイティブな作業に集中できるよう、ルーチンワークをAIに任せる仕組みづくりを徹底解説。</p>
+</div>
+<div class="p-8 rounded-2xl border border-slate-100 dark:border-slate-800 hover:shadow-lg transition-shadow">
+<span class="material-icons text-primary text-4xl mb-4">handshake</span>
+<h4 class="text-xl font-bold mb-3">ネットワーキング</h4>
+<p class="text-slate-600 dark:text-slate-400">セミナー後の懇親会では、同じ悩みを持つ経営者や実務担当者との深い交流が可能です。</p>
+</div>
+</div>
+</div>
+</section>
+<section class="py-24 bg-background-light dark:bg-slate-800 relative overflow-hidden" id="register">
+<div class="absolute -top-24 -right-24 w-96 h-96 bg-primary/5 rounded-full"></div>
+<div class="absolute -bottom-24 -left-24 w-96 h-96 bg-accent/5 rounded-full"></div>
+<div class="max-w-3xl mx-auto px-4 relative z-10">
+<div class="bg-white dark:bg-slate-900 rounded-3xl shadow-2xl p-8 md:p-12 text-center border border-slate-100 dark:border-slate-700">
+<h2 class="text-3xl font-bold mb-6">セミナーに参加する</h2>
+<p class="text-slate-600 dark:text-slate-400 mb-10">
+                        AI時代に取り残されないための実践的なスキルを、今ここで手に入れましょう。<br/>
+                        お申し込みは以下のボタンから簡単に行えます。
+                    </p>
+<div class="space-y-6">
+<a class="block w-full py-5 bg-primary hover:bg-blue-800 text-white text-xl font-bold rounded-2xl shadow-xl shadow-blue-500/20 transition-all transform hover:-translate-y-1" href="#">
+                            参加を申し込む (無料)
+                        </a>
+<p class="text-sm text-slate-500">
+                            ※申込期限: 2026年5月18日(月) 23:59まで
+                        </p>
+</div>
+<div class="mt-12 pt-12 border-t border-slate-100 dark:border-slate-800 grid grid-cols-2 gap-4">
+<div class="text-left">
+<p class="text-xs text-slate-400 uppercase tracking-widest mb-1">Access</p>
+<p class="font-bold">TKPガーデンシティ博多</p>
+<p class="text-xs text-slate-500">福岡県福岡市博多区博多駅前3-25-24</p>
+</div>
+<div class="text-left border-l border-slate-100 dark:border-slate-800 pl-4">
+<p class="text-xs text-slate-400 uppercase tracking-widest mb-1">Time</p>
+<p class="font-bold">5/22 13:00 開演</p>
+<p class="text-xs text-slate-500">12:30 受付開始</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<footer class="bg-white dark:bg-background-dark py-12 border-t border-slate-100 dark:border-slate-800">
+<div class="max-w-6xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center gap-6">
+<div class="text-slate-400 text-sm">
+                © 2024 NATIONS Seminar Fukuoka. All rights reserved.
+            </div>
+<div class="flex gap-8">
+<a class="text-slate-500 hover:text-primary text-sm transition-colors" href="#">プライバシーポリシー</a>
+<a class="text-slate-500 hover:text-primary text-sm transition-colors" href="#">利用規約</a>
+<a class="text-slate-500 hover:text-primary text-sm transition-colors" href="#">お問い合わせ</a>
+</div>
+</div>
+</footer>
+<div class="md:hidden fixed bottom-6 left-0 right-0 px-4 z-40">
+<a class="block w-full py-4 bg-accent text-white text-center font-bold rounded-full shadow-lg" href="#register">
+            今すぐ申し込む
+        </a>
+</div>
+
+</body></html>
